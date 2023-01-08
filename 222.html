@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { margin:0; }
+        button { font-size: 30px; }
+    </style>
+    <script>
+        function clickIdiot() {
+            const ranL = Math.random(); // 0 ~ 1
+            const ranT = Math.random(); // 0 ~ 1
+            const left = ranL * 1070;
+            const top = ranT * 656;
+
+            window.open('move.html', '_blank', `width=400,height=300,left=${left},top=${top}`);
+        }
+
+        function clickIdiot2() {
+            const ranL = Math.random(); // 0 ~ 1
+            const ranT = Math.random(); // 0 ~ 1
+            const left = ranL * 1070;
+            const top = ranT * 656;
+            window.open('https://captainchicky.github.io/Idiot!/Converted/Idiot!.html', '_blank', `width=400,height=300,left=${left},top=${top}`)
+        }
+    </script>
+</head>
+<body>
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/48rz8udZBmQ" title="You are an idiot!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div>
+        <button onclick="clickIdiot()">바보</button>
+        <button onclick="clickIdiot2()">바보2</button>
+    </div>
+</body>
+</html>
